@@ -1,5 +1,5 @@
 # Base image
-FROM portainer/portainer:1.20.0
+FROM portainer/portainer:1.20.2
 
 # Expose ports
 EXPOSE 9000
