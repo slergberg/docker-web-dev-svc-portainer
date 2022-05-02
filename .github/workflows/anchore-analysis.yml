@@ -31,6 +31,6 @@ jobs:
           acs-report-enable: true
           image: ${{ env.DOCKER_IMAGE_NAME }}:latest
       - name: Upload Anchore report
-        uses: github/codeql-action/upload-sarif@v1
+        uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: results.sarif
